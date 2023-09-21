@@ -11,13 +11,13 @@ C:\Program Files\Unity 2022.2.19f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/g3.hn/Documents/GitHub/GameJamOfficial/GameJam_Official
+C:/Users/j4.fv/Documents/GitHub/GameJamOfficial/GameJam_Official
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55144
-Successfully changed project path to: C:/Users/g3.hn/Documents/GitHub/GameJamOfficial/GameJam_Official
-C:/Users/g3.hn/Documents/GitHub/GameJamOfficial/GameJam_Official
+51492
+Successfully changed project path to: C:/Users/j4.fv/Documents/GitHub/GameJamOfficial/GameJam_Official
+C:/Users/j4.fv/Documents/GitHub/GameJamOfficial/GameJam_Official
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,61 +47,61 @@ C:/Users/g3.hn/Documents/GitHub/GameJamOfficial/GameJam_Official
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [11940] Host "[IP] 10.133.5.66 [Port] 0 [Flags] 2 [Guid] 2400617951 [EditorId] 2400617951 [Version] 1048832 [Id] WindowsEditor(7,S3371DBUS204-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [16144] Host "[IP] 10.133.5.67 [Port] 0 [Flags] 2 [Guid] 3046729554 [EditorId] 3046729554 [Version] 1048832 [Id] WindowsEditor(7,S3371DBUS204-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [11940] Host "[IP] 10.133.5.66 [Port] 0 [Flags] 2 [Guid] 2400617951 [EditorId] 2400617951 [Version] 1048832 [Id] WindowsEditor(7,S3371DBUS204-22) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [16144] Host "[IP] 10.133.5.67 [Port] 0 [Flags] 2 [Guid] 3046729554 [EditorId] 3046729554 [Version] 1048832 [Id] WindowsEditor(7,S3371DBUS204-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.19f1 (765657fe9343)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.2.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/g3.hn/Documents/GitHub/GameJamOfficial/GameJam_Official/Assets
+[Subsystems] Discovering subsystems at path C:/Users/j4.fv/Documents/GitHub/GameJamOfficial/GameJam_Official/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: AMD Radeon Pro WX 3200 Series (ID=0x6981)
     Vendor:   ATI
     VRAM:     4040 MB
-    Driver:   31.0.14037.13007
+    Driver:   30.0.21020.2
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.2.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.2.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56084
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001929 seconds.
-- Loaded All Assemblies, in  0.192 seconds
+Registered in 0.002430 seconds.
+- Loaded All Assemblies, in  0.207 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.170 seconds
+- Finished resetting the current domain, in  0.177 seconds
 Domain Reload Profiling:
-	ReloadAssembly (112ms)
-		BeginReloadAssembly (51ms)
+	ReloadAssembly (121ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
+			CreateAndSetChildDomain (0ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (50ms)
+			LoadAssemblies (55ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (77ms)
-				TypeCache.Initialize (76ms)
-					TypeCache.ScanAssembly (75ms)
+			SetupTypeCache (83ms)
+				TypeCache.Initialize (82ms)
+					TypeCache.ScanAssembly (81ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (131ms)
+			SetupLoadedEditorAssemblies (138ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (6ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (90ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				ProcessInitializeOnLoadAttributes (94ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -109,95 +109,27 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\g3.hn\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\g3.hn\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.431 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\j4.fv\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\j4.fv\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.450 seconds
+Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.309 seconds
+- Finished resetting the current domain, in  0.322 seconds
 Domain Reload Profiling:
-	ReloadAssembly (130ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (137ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		LoadAllAssembliesAndSetupDomain (300ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (15ms)
+		LoadAllAssembliesAndSetupDomain (312ms)
+			LoadAssemblies (162ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (179ms)
-				TypeCache.Initialize (167ms)
-					TypeCache.ScanAssembly (165ms)
-				ResolveRequiredComponents (2ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (217ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (34ms)
-				ProcessInitializeOnLoadAttributes (162ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 31 unused Assets / (66.4 KB). Loaded Objects now: 3544.
-Memory consumption went from 113.7 MB to 113.7 MB.
-Total: 2.170500 ms (FindLiveObjects: 0.154600 ms CreateObjectMapping: 0.065100 ms MarkObjects: 1.871500 ms  DeleteObjects: 0.078400 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 106775.334485 seconds.
-  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
-  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b182593e4f65c9a8b3567e0b50e958cc') in 0.096885 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\g3.hn\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\g3.hn\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.406 seconds
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.465 seconds
-Domain Reload Profiling:
-	ReloadAssembly (133ms)
-		BeginReloadAssembly (89ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		LoadAllAssembliesAndSetupDomain (271ms)
-			LoadAssemblies (145ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
-				TypeCache.Initialize (160ms)
-					TypeCache.ScanAssembly (156ms)
+			SetupTypeCache (188ms)
+				TypeCache.Initialize (177ms)
+					TypeCache.ScanAssembly (174ms)
 				ResolveRequiredComponents (2ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
@@ -207,149 +139,21 @@ Domain Reload Profiling:
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (165ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (168ms)
 				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3058 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.5 KB). Loaded Objects now: 3590.
-Memory consumption went from 114.4 MB to 114.4 MB.
-Total: 2.042800 ms (FindLiveObjects: 0.150800 ms CreateObjectMapping: 0.066800 ms MarkObjects: 1.791400 ms  DeleteObjects: 0.033200 ms)
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (66.5 KB). Loaded Objects now: 3545.
+Memory consumption went from 113.8 MB to 113.7 MB.
+Total: 2.055000 ms (FindLiveObjects: 0.159700 ms CreateObjectMapping: 0.073000 ms MarkObjects: 1.743500 ms  DeleteObjects: 0.078100 ms)
 
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\g3.hn\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\g3.hn\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.417 seconds
-Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.428 seconds
-Domain Reload Profiling:
-	ReloadAssembly (134ms)
-		BeginReloadAssembly (90ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (24ms)
-		LoadAllAssembliesAndSetupDomain (283ms)
-			LoadAssemblies (151ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (168ms)
-				TypeCache.Initialize (164ms)
-					TypeCache.ScanAssembly (160ms)
-				ResolveRequiredComponents (3ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (210ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (38ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3060 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (38.0 KB). Loaded Objects now: 3594.
-Memory consumption went from 114.7 MB to 114.6 MB.
-Total: 2.067200 ms (FindLiveObjects: 0.151300 ms CreateObjectMapping: 0.067700 ms MarkObjects: 1.810900 ms  DeleteObjects: 0.036600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 323.037419 seconds.
-  path: Assets/Scripts/SlingshotController.cs
-  artifactKey: Guid(adb931192adf59a49bce9fe12c6a0e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/SlingshotController.cs using Guid(adb931192adf59a49bce9fe12c6a0e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13890dba6f4bee6cf69079a552fcba7e') in 0.001271 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\g3.hn\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\g3.hn\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.394 seconds
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.451 seconds
-Domain Reload Profiling:
-	ReloadAssembly (131ms)
-		BeginReloadAssembly (87ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		LoadAllAssembliesAndSetupDomain (262ms)
-			LoadAssemblies (140ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (158ms)
-				TypeCache.Initialize (154ms)
-					TypeCache.ScanAssembly (151ms)
-				ResolveRequiredComponents (2ms)
-		FinalizeReload (0ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (213ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (3ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (41ms)
-				ProcessInitializeOnLoadAttributes (151ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (4ms)
-Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3597.
-Memory consumption went from 114.4 MB to 114.4 MB.
-Total: 2.333300 ms (FindLiveObjects: 0.145000 ms CreateObjectMapping: 0.065600 ms MarkObjects: 2.085700 ms  DeleteObjects: 0.036400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 

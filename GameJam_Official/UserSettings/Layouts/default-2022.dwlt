@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1600
     height: 809
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 91
+  controlID: 39
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -333,14 +333,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Assets
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\j4.fv\Documents\GitHub\GameJamOfficial\GameJam_Official
+  m_LastProjectPath: C:\Users\g3.hn\Documents\GitHub\GameJamOfficial\GameJam_Official
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 78590000
-    m_LastClickedID: 22904
-    m_ExpandedIDs: 000000006459000000ca9a3b
+    m_SelectedIDs: 481e0000
+    m_LastClickedID: 7752
+    m_ExpandedIDs: 000000007a59000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -368,7 +368,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000064590000
+    m_ExpandedIDs: 000000007a590000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -395,7 +395,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -465,7 +465,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 264
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -508,9 +508,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 48faffff
+      m_SelectedIDs: 38590000
+      m_LastClickedID: 22840
+      m_ExpandedIDs: 12faffff44590000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -832,9 +832,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -244, y: -139}
+      snapOffset: {x: 674, y: 289}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 3
+      snapCorner: 0
       id: UnityEditor.SceneViewCameraOverlay
       index: 8
       layout: 4
@@ -877,9 +877,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 1, z: -10}
+    m_Target: {x: -8.436815, y: -2.5374022, z: 26.684982}
     speed: 2
-    m_Value: {x: 0, y: 1, z: -10}
+    m_Value: {x: -8.436815, y: -2.5374022, z: 26.684982}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -925,13 +925,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.00027199835, y: 0.99925977, z: -0.037799466, w: -0.007193503}
+    m_Target: {x: -0.119328305, y: -0.106421694, z: 0.012865389, w: -0.9870549}
     speed: 2
-    m_Value: {x: -0.00027199835, y: 0.99925977, z: -0.037799466, w: -0.007193503}
+    m_Value: {x: -0.11932785, y: -0.10642129, z: 0.012865339, w: -0.9870511}
   m_Size:
-    m_Target: 1084.028
+    m_Target: 14.142113
     speed: 2
-    m_Value: 1084.028
+    m_Value: 14.142113
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1023,7 +1023,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
