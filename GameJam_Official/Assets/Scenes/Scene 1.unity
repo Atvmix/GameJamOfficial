@@ -495,6 +495,8 @@ MonoBehaviour:
   slingshotRight: {fileID: 1663593295}
   projectileSpawnPoint: {fileID: 1424862018}
   launchPower: 10
+  projectileRigidbody: {fileID: 0}
+  isDragging: 0
 --- !u!4 &1641000631
 Transform:
   m_ObjectHideFlags: 0
@@ -503,7 +505,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1641000629}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -14.63, y: -0.58, z: 8.3}
+  m_LocalPosition: {x: -14.63, y: 1.99, z: 8.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -552,7 +554,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: b3f2c9bf71ae7ce4a8b58ad8c4fdf07c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -824,7 +826,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2120812936}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -2.71, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 63.75901, y: 1, z: 53.16882}
   m_ConstrainProportionsScale: 0
   m_Children: []
