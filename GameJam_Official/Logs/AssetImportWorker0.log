@@ -11,13 +11,13 @@ C:\Program Files\Unity 2022.2.19f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/gm.jf/Documents/GitHub/GameJamOfficial/GameJam_Official
+C:/Users/j4.fv/Documents/GitHub/GameJamOfficial/GameJam_Official
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52914
-Successfully changed project path to: C:/Users/gm.jf/Documents/GitHub/GameJamOfficial/GameJam_Official
-C:/Users/gm.jf/Documents/GitHub/GameJamOfficial/GameJam_Official
+51324
+Successfully changed project path to: C:/Users/j4.fv/Documents/GitHub/GameJamOfficial/GameJam_Official
+C:/Users/j4.fv/Documents/GitHub/GameJamOfficial/GameJam_Official
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,60 +47,60 @@ C:/Users/gm.jf/Documents/GitHub/GameJamOfficial/GameJam_Official
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [7036] Host "[IP] 10.133.5.68 [Port] 0 [Flags] 2 [Guid] 3800848280 [EditorId] 3800848280 [Version] 1048832 [Id] WindowsEditor(7,S3371DBUS204-24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [24252] Host "[IP] 10.133.5.67 [Port] 0 [Flags] 2 [Guid] 819477214 [EditorId] 819477214 [Version] 1048832 [Id] WindowsEditor(7,S3371DBUS204-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [7036] Host "[IP] 10.133.5.68 [Port] 0 [Flags] 2 [Guid] 3800848280 [EditorId] 3800848280 [Version] 1048832 [Id] WindowsEditor(7,S3371DBUS204-24) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [24252] Host "[IP] 10.133.5.67 [Port] 0 [Flags] 2 [Guid] 819477214 [EditorId] 819477214 [Version] 1048832 [Id] WindowsEditor(7,S3371DBUS204-23) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 3.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.2.19f1 (765657fe9343)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity 2022.2.19f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/gm.jf/Documents/GitHub/GameJamOfficial/GameJam_Official/Assets
+[Subsystems] Discovering subsystems at path C:/Users/j4.fv/Documents/GitHub/GameJamOfficial/GameJam_Official/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
     Renderer: AMD Radeon Pro WX 3200 Series (ID=0x6981)
     Vendor:   ATI
     VRAM:     4040 MB
-    Driver:   31.0.12026.6001
+    Driver:   30.0.21020.2
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity 2022.2.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity 2022.2.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity 2022.2.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56568
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity 2022.2.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003187 seconds.
-- Loaded All Assemblies, in  0.200 seconds
+Registered in 0.002742 seconds.
+- Loaded All Assemblies, in  0.206 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.176 seconds
+- Finished resetting the current domain, in  0.179 seconds
 Domain Reload Profiling:
-	ReloadAssembly (117ms)
-		BeginReloadAssembly (54ms)
+	ReloadAssembly (121ms)
+		BeginReloadAssembly (55ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (0ms)
+			CreateAndSetChildDomain (1ms)
 		LoadAllAssembliesAndSetupDomain (0ms)
-			LoadAssemblies (52ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (78ms)
-				TypeCache.Initialize (78ms)
-					TypeCache.ScanAssembly (77ms)
+			SetupTypeCache (81ms)
+				TypeCache.Initialize (80ms)
+					TypeCache.ScanAssembly (79ms)
 				ResolveRequiredComponents (0ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (136ms)
+			SetupLoadedEditorAssemblies (139ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (5ms)
 				RefreshPlugins (0ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (93ms)
+				ProcessInitializeOnLoadAttributes (95ms)
 				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -109,50 +109,50 @@ Domain Reload Profiling:
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gm.jf\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\gm.jf\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-- Loaded All Assemblies, in  0.449 seconds
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Symbol file LoadedFromMemory doesn't match image C:\Users\j4.fv\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\j4.fv\Documents\GitHub\GameJamOfficial\GameJam_Official\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.455 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.315 seconds
+- Finished resetting the current domain, in  0.325 seconds
 Domain Reload Profiling:
-	ReloadAssembly (136ms)
-		BeginReloadAssembly (80ms)
+	ReloadAssembly (137ms)
+		BeginReloadAssembly (83ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (3ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (14ms)
-		LoadAllAssembliesAndSetupDomain (313ms)
-			LoadAssemblies (166ms)
+			CreateAndSetChildDomain (15ms)
+		LoadAllAssembliesAndSetupDomain (318ms)
+			LoadAssemblies (161ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (184ms)
-				TypeCache.Initialize (172ms)
-					TypeCache.ScanAssembly (170ms)
-				ResolveRequiredComponents (2ms)
+			SetupTypeCache (193ms)
+				TypeCache.Initialize (181ms)
+					TypeCache.ScanAssembly (178ms)
+				ResolveRequiredComponents (3ms)
 		FinalizeReload (0ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (0ms)
-			SetupLoadedEditorAssemblies (223ms)
+			SetupLoadedEditorAssemblies (230ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (3ms)
 				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (35ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (12ms)
+				BeforeProcessingInitializeOnLoad (37ms)
+				ProcessInitializeOnLoadAttributes (171ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 31 unused Assets / (66.3 KB). Loaded Objects now: 3544.
 Memory consumption went from 113.8 MB to 113.8 MB.
-Total: 2.015300 ms (FindLiveObjects: 0.152300 ms CreateObjectMapping: 0.069400 ms MarkObjects: 1.714600 ms  DeleteObjects: 0.078200 ms)
+Total: 2.238300 ms (FindLiveObjects: 0.167500 ms CreateObjectMapping: 0.068100 ms MarkObjects: 1.927700 ms  DeleteObjects: 0.074200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -168,9 +168,81 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 360009.696604 seconds.
-  path: Assets/Prefabs/pig.prefab
-  artifactKey: Guid(661806ba165c9c24b8c53a777fc78c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/pig.prefab using Guid(661806ba165c9c24b8c53a777fc78c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6635ad0bd4cf947080c989d39da7e8e6') in 0.120416 seconds
+  Time since last request: 923563.046801 seconds.
+  path: Assets/Prefabs/Chicken (1).prefab
+  artifactKey: Guid(057291f8e1102e94eb06131930d4dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Chicken (1).prefab using Guid(057291f8e1102e94eb06131930d4dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3e4621fba2d5a2b52354759c0a09238') in 0.091727 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Prefabs/slingshot.prefab
+  artifactKey: Guid(aa43fc8e4348d5248aebafc2da446d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/slingshot.prefab using Guid(aa43fc8e4348d5248aebafc2da446d55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49af2ca18bc1113a4c8858690115becc') in 0.005653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.453339 seconds.
+  path: Assets/Assets/Chicken.psd
+  artifactKey: Guid(ce0dcff4f8f7662468bc972950fd4d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/Chicken.psd using Guid(ce0dcff4f8f7662468bc972950fd4d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5702e59b9775c4eae3a6bfede17de51') in 0.029890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets/pig.psd
+  artifactKey: Guid(1b77379b1815d754a9684ee547b43f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/pig.psd using Guid(1b77379b1815d754a9684ee547b43f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5811fe96a17ec04dbd3234bd8e85911f') in 0.024728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 22.740018 seconds.
+  path: Assets/Prefabs/slingshot actual.psd
+  artifactKey: Guid(3622bade6bc5e28498a81bc4575df2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/slingshot actual.psd using Guid(3622bade6bc5e28498a81bc4575df2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7c31759e70a0870f18f1d9eeaef59e7') in 0.007693 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 26.426292 seconds.
+  path: Assets/Prefabs/slingshot actual.psd
+  artifactKey: Guid(3622bade6bc5e28498a81bc4575df2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/slingshot actual.psd using Guid(3622bade6bc5e28498a81bc4575df2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a48a82fc7b773ddf12a897bd8f62e3') in 0.007525 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.864081 seconds.
+  path: Assets/Prefabs/slingshot actual.psd
+  artifactKey: Guid(3622bade6bc5e28498a81bc4575df2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/slingshot actual.psd using Guid(3622bade6bc5e28498a81bc4575df2c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8806762d0866d3d0a2f5016aeba5258') in 0.009046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 21.612906 seconds.
+  path: Assets/Prefabs/slingshot actual 1.psd
+  artifactKey: Guid(91cbf7a1637355a4b96525f56e2663a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/slingshot actual 1.psd using Guid(91cbf7a1637355a4b96525f56e2663a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7abf81d1a6c1d2983d54d8a4a35e9d') in 0.008266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 22.333177 seconds.
+  path: Assets/Prefabs/slingshot actual.prefab
+  artifactKey: Guid(2dd1f6d8b5f17ab4e99f7ba06b53e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/slingshot actual.prefab using Guid(2dd1f6d8b5f17ab4e99f7ba06b53e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0120cdbae15d5111918a4fef262ef8c4') in 0.001757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 89.062700 seconds.
+  path: Assets/Prefabs/slingshot actual.prefab
+  artifactKey: Guid(2dd1f6d8b5f17ab4e99f7ba06b53e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/slingshot actual.prefab using Guid(2dd1f6d8b5f17ab4e99f7ba06b53e00e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ebbbae3d12c0336ab3912b1968f8ccb') in 0.007594 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 7
