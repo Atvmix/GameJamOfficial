@@ -9,6 +9,10 @@ public class Slingshot : MonoBehaviour
     public Transform center;
     public Transform idlePosition;
 
+    public Vector3 currentPosition;
+
+    public float maxLength;
+
     bool isMouseDown;
 
     void Start()
@@ -26,7 +30,10 @@ public class Slingshot : MonoBehaviour
             Vector3 mousePosition = Input.mousePosition;
             mousePosition.z = 10;
 
-            SetStrips(mousePosition);
+            currentPosition = Camera.main.ScreenToWorldPoint(mousePosition);
+            currentPosition = center.position + Vector3.ClampMagnitude(currentPosition - center.position, maxLength);
+
+            SetStrips(currentPosition);
         }
         else
         {
@@ -46,7 +53,8 @@ public class Slingshot : MonoBehaviour
 
     void ResetStrips()
     {
-        SetStrips(idlePosition.position);
+        currentPosition = idlePosition.position;
+        SetStrips(currentPosition);
     }
 
     void SetStrips(Vector3 position)
