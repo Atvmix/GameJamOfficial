@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Slingshot : MonoBehaviour
 {
     public LineRenderer[] lineRenderers;
@@ -13,7 +14,18 @@ public class Slingshot : MonoBehaviour
 
     public float maxLength;
 
+    public float bottomBoundary;
+
     bool isMouseDown;
+
+    public GameObject pigPrefab;
+
+    public float pigPositionOffset;
+
+    Rigidbody pig;
+    Collider2D pigCollider;
+
+    public float force; 
 
     void Start()
     {
@@ -21,7 +33,16 @@ public class Slingshot : MonoBehaviour
         lineRenderers[1].positionCount = 2;
         lineRenderers[0].SetPosition(0, stripPositions[0].position);
         lineRenderers[1].SetPosition(0, stripPositions[1].position);
+
+        Createpig();
     }
+
+     void Createpig() 
+     {
+        pig = Instantiate(pigPrefab).GetComponent<Rigidbody>();
+        pigCollider = pig.GetComponent<Collider2D>();
+        pigCollider.enabled = false;
+     }
 
     void Update()
     {
@@ -49,6 +70,17 @@ public class Slingshot : MonoBehaviour
     private void OnMouseUp()
     {
         isMouseDown = false;
+        Shoot();
+    }
+
+    void Shoot()
+    {
+        Vector3 pigForce = (currentPosition - center.position) * force * -1;
+        pig.velocity = pigForce;
+
+        pig = null;
+        pigCollider = null;
+        Invoke("CreatePig", 2);
     }
 
     void ResetStrips()
@@ -61,5 +93,13 @@ public class Slingshot : MonoBehaviour
     {
         lineRenderers[0].SetPosition(1, position);
         lineRenderers[1].SetPosition(1, position);
+
+        if (pig)
+        {
+            Vector3 dir = position - currentPosition;
+            pig.transform.position = position + dir.normalized * pigPositionOffset;
+            pig.transform.right = -dir.normalized;
+        }
+      
     }
 }
