@@ -22,7 +22,7 @@ public class Slingshot : MonoBehaviour
 
     public float pigPositionOffset;
 
-    Rigidbody pig;
+    Rigidbody2D pig;
     Collider2D pigCollider;
 
     public float force; 
@@ -39,7 +39,7 @@ public class Slingshot : MonoBehaviour
 
      void Createpig() 
      {
-        pig = Instantiate(pigPrefab).GetComponent<Rigidbody>();
+        pig = Instantiate(pigPrefab).GetComponent<Rigidbody2D>();
         pigCollider = pig.GetComponent<Collider2D>();
         pigCollider.enabled = false;
      }
