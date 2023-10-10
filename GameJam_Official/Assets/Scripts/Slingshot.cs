@@ -39,7 +39,7 @@ public class Slingshot : MonoBehaviour
 
      void Createpig() 
      {
-        pig = Instantiate(pigPrefab).GetComponent<Rigidbody2D>();
+        pig = Instantiate(pigPrefab, transform.position, Quaternion.identity).GetComponent<Rigidbody2D>();
         pigCollider = pig.GetComponent<Collider2D>();
         pigCollider.enabled = false;
      }
