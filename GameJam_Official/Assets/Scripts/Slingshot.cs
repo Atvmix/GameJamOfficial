@@ -42,6 +42,11 @@ public class Slingshot : MonoBehaviour
         pig = Instantiate(pigPrefab, transform.position, Quaternion.identity).GetComponent<Rigidbody2D>();
         pigCollider = pig.GetComponent<Collider2D>();
         pigCollider.enabled = false;
+
+        pig.isKinematic = true;
+
+
+        ResetStrips();
      }
 
     void Update()
@@ -55,6 +60,12 @@ public class Slingshot : MonoBehaviour
             currentPosition = center.position + Vector3.ClampMagnitude(currentPosition - center.position, maxLength);
 
             SetStrips(currentPosition);
+
+            if (pigCollider)
+            {
+                pigCollider.enabled = true;
+            }
+
         }
         else
         {
@@ -75,6 +86,7 @@ public class Slingshot : MonoBehaviour
 
     void Shoot()
     {
+        pig.isKinematic = false;
         Vector3 pigForce = (currentPosition - center.position) * force * -1;
         pig.velocity = pigForce;
 
